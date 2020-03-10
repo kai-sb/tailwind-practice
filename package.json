@@ -1,0 +1,46 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "npx rimraf dev && npm run dev:css & npm run dev:html & npm run dev:images & npm run dev:fonts & npm run dev:js",
+    "dev:css": "cross-env NODE_ENV=development postcss src/Challenger.css -o dev/Challenger.css",
+    "dev:html": "cross-env NODE_ENV=development copyfiles -f src/**/*.html dev",
+    "dev:js": "cross-env NODE_ENV=development copyfiles -f src/**/*.js dev",
+    "dev:images": "cross-env NODE_ENV=development copyfiles -f src/**/*.png dev/img",
+    "dev:fonts": "cross-env NODE_ENV=development copyfiles -f src/**/*.woff dev/fonts",
+    "build": "npx rimraf build && npm run build:css & npm run build:html & npm run build:images & npm run build:fonts",
+    "build:css": "cross-env NODE_ENV=production postcss src/Challenger.css -o build/Challenger.css",
+    "build:html": "cross-env NODE_ENV=production copyfiles -f src/**/*.html build",
+    "build:images": "cross-env NODE_ENV=production copyfiles -f src/**/*.png build/img",
+    "build:fonts": "cross-env NODE_ENV=production copyfiles -f src/**/*.woff build/fonts",
+    "watch": "onchange src/**/*.html -- npm run dev:html",
+    "server": "browser-sync start --index Challenger.html --server dev --files dev",
+    "watch:server": "npm-run-all --parallel watch server"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "copyfiles": "^2.1.1",
+    "cross-env": "^6.0.3",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.1.0",
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^3.0.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kai-sb/tailwind-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kai-sb/tailwind-practice/issues"
+  },
+  "homepage": "https://github.com/kai-sb/tailwind-practice#readme"
+}
