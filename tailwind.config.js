@@ -42,15 +42,6 @@ module.exports = {
             "3xl": "1.50rem", // 24px
             "4xl": "1.875rem", // 30px
             "5xl": "2.500rem" // 40px
-        },
-        lineHeight: { // todo
-            none: 1,
-            tight: 1.1667,
-            snug: 1.2,
-            normal: 1.25,
-            relaxed: 1.3,
-            loose: 1.4166,
-            extended: 1.5
         }
     },
     corePlugins: {
@@ -63,33 +54,16 @@ module.exports = {
             config
         }) {
             addBase({
-                '@font-face': [{
-                        'font-family': '"ProbaPro-Regular"',
-                        src: 'url("Proba_Pro_Regular.woff") format("woff")'
-                    },
-                    {
-                        'font-family': '"ProbaPro-Bold"',
-                        src: 'url("Proba_Pro_Bold.woff") format("woff")'
-                    }
-                ]
-            });
-        },
-
-        function ({
-            addBase,
-            config
-        }) {
-            addBase({
                 "@font-face": [{
                         "font-family": '"Sang-bleu-sans-light"',
-                        src: 'url("/fonts/SangBleuSans-Light.woff") format("woff")'
+                        src: 'url("fonts/SangBleuSans-Light.woff") format("woff")'
                     },
                     {
                         "font-family": '"Sang Bleu Sans Regular"',
                         src: 'url("fonts/SangBleuSans-Regular.woff") format("woff")'
                     },
                     {
-                        "font-family": '"Sang-bleu-sans-regular"',
+                        "font-family": '"Akkurat-regular"',
                         src: 'url("fonts/AkkuratStd-Reg.woff") format("woff")'
                     },
                     {
