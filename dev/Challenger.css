@@ -22,9 +22,9 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
   .container {
-    max-width: 1280px
+    max-width: 1281px
   }
 }
 
@@ -1179,7 +1179,7 @@
 }
 
 .font-sang-light {
-  font-family: "Sang Bleu Sans Light"
+  font-family: "Sang-bleu-sans-light"
 }
 
 .font-sang-regular {
@@ -1187,119 +1187,11 @@
 }
 
 .font-akkurat-regular {
-  font-family: "Akkurat Std Regular"
+  font-family: "Akkurat-regular"
 }
 
 .font-akkurat-bold {
   font-family: "Akkurat Std Bold"
-}
-
-.font-hairline {
-  font-weight: 100
-}
-
-.font-thin {
-  font-weight: 200
-}
-
-.font-light {
-  font-weight: 300
-}
-
-.font-normal {
-  font-weight: 400
-}
-
-.font-medium {
-  font-weight: 500
-}
-
-.font-semibold {
-  font-weight: 600
-}
-
-.font-bold {
-  font-weight: 700
-}
-
-.font-extrabold {
-  font-weight: 800
-}
-
-.font-black {
-  font-weight: 900
-}
-
-.hover\:font-hairline:hover {
-  font-weight: 100
-}
-
-.hover\:font-thin:hover {
-  font-weight: 200
-}
-
-.hover\:font-light:hover {
-  font-weight: 300
-}
-
-.hover\:font-normal:hover {
-  font-weight: 400
-}
-
-.hover\:font-medium:hover {
-  font-weight: 500
-}
-
-.hover\:font-semibold:hover {
-  font-weight: 600
-}
-
-.hover\:font-bold:hover {
-  font-weight: 700
-}
-
-.hover\:font-extrabold:hover {
-  font-weight: 800
-}
-
-.hover\:font-black:hover {
-  font-weight: 900
-}
-
-.focus\:font-hairline:focus {
-  font-weight: 100
-}
-
-.focus\:font-thin:focus {
-  font-weight: 200
-}
-
-.focus\:font-light:focus {
-  font-weight: 300
-}
-
-.focus\:font-normal:focus {
-  font-weight: 400
-}
-
-.focus\:font-medium:focus {
-  font-weight: 500
-}
-
-.focus\:font-semibold:focus {
-  font-weight: 600
-}
-
-.focus\:font-bold:focus {
-  font-weight: 700
-}
-
-.focus\:font-extrabold:focus {
-  font-weight: 800
-}
-
-.focus\:font-black:focus {
-  font-weight: 900
 }
 
 .h-0 {
@@ -2647,7 +2539,7 @@
 }
 
 .max-w-screen-xl {
-  max-width: 1280px
+  max-width: 1281px
 }
 
 .min-h-0 {
@@ -8399,7 +8291,7 @@
   }
 
   .sm\:font-sang-light {
-    font-family: "Sang Bleu Sans Light"
+    font-family: "Sang-bleu-sans-light"
   }
 
   .sm\:font-sang-regular {
@@ -8407,119 +8299,11 @@
   }
 
   .sm\:font-akkurat-regular {
-    font-family: "Akkurat Std Regular"
+    font-family: "Akkurat-regular"
   }
 
   .sm\:font-akkurat-bold {
     font-family: "Akkurat Std Bold"
-  }
-
-  .sm\:font-hairline {
-    font-weight: 100
-  }
-
-  .sm\:font-thin {
-    font-weight: 200
-  }
-
-  .sm\:font-light {
-    font-weight: 300
-  }
-
-  .sm\:font-normal {
-    font-weight: 400
-  }
-
-  .sm\:font-medium {
-    font-weight: 500
-  }
-
-  .sm\:font-semibold {
-    font-weight: 600
-  }
-
-  .sm\:font-bold {
-    font-weight: 700
-  }
-
-  .sm\:font-extrabold {
-    font-weight: 800
-  }
-
-  .sm\:font-black {
-    font-weight: 900
-  }
-
-  .sm\:hover\:font-hairline:hover {
-    font-weight: 100
-  }
-
-  .sm\:hover\:font-thin:hover {
-    font-weight: 200
-  }
-
-  .sm\:hover\:font-light:hover {
-    font-weight: 300
-  }
-
-  .sm\:hover\:font-normal:hover {
-    font-weight: 400
-  }
-
-  .sm\:hover\:font-medium:hover {
-    font-weight: 500
-  }
-
-  .sm\:hover\:font-semibold:hover {
-    font-weight: 600
-  }
-
-  .sm\:hover\:font-bold:hover {
-    font-weight: 700
-  }
-
-  .sm\:hover\:font-extrabold:hover {
-    font-weight: 800
-  }
-
-  .sm\:hover\:font-black:hover {
-    font-weight: 900
-  }
-
-  .sm\:focus\:font-hairline:focus {
-    font-weight: 100
-  }
-
-  .sm\:focus\:font-thin:focus {
-    font-weight: 200
-  }
-
-  .sm\:focus\:font-light:focus {
-    font-weight: 300
-  }
-
-  .sm\:focus\:font-normal:focus {
-    font-weight: 400
-  }
-
-  .sm\:focus\:font-medium:focus {
-    font-weight: 500
-  }
-
-  .sm\:focus\:font-semibold:focus {
-    font-weight: 600
-  }
-
-  .sm\:focus\:font-bold:focus {
-    font-weight: 700
-  }
-
-  .sm\:focus\:font-extrabold:focus {
-    font-weight: 800
-  }
-
-  .sm\:focus\:font-black:focus {
-    font-weight: 900
   }
 
   .sm\:h-0 {
@@ -9867,7 +9651,7 @@
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1281px
   }
 
   .sm\:min-h-0 {
@@ -15620,7 +15404,7 @@
   }
 
   .md\:font-sang-light {
-    font-family: "Sang Bleu Sans Light"
+    font-family: "Sang-bleu-sans-light"
   }
 
   .md\:font-sang-regular {
@@ -15628,119 +15412,11 @@
   }
 
   .md\:font-akkurat-regular {
-    font-family: "Akkurat Std Regular"
+    font-family: "Akkurat-regular"
   }
 
   .md\:font-akkurat-bold {
     font-family: "Akkurat Std Bold"
-  }
-
-  .md\:font-hairline {
-    font-weight: 100
-  }
-
-  .md\:font-thin {
-    font-weight: 200
-  }
-
-  .md\:font-light {
-    font-weight: 300
-  }
-
-  .md\:font-normal {
-    font-weight: 400
-  }
-
-  .md\:font-medium {
-    font-weight: 500
-  }
-
-  .md\:font-semibold {
-    font-weight: 600
-  }
-
-  .md\:font-bold {
-    font-weight: 700
-  }
-
-  .md\:font-extrabold {
-    font-weight: 800
-  }
-
-  .md\:font-black {
-    font-weight: 900
-  }
-
-  .md\:hover\:font-hairline:hover {
-    font-weight: 100
-  }
-
-  .md\:hover\:font-thin:hover {
-    font-weight: 200
-  }
-
-  .md\:hover\:font-light:hover {
-    font-weight: 300
-  }
-
-  .md\:hover\:font-normal:hover {
-    font-weight: 400
-  }
-
-  .md\:hover\:font-medium:hover {
-    font-weight: 500
-  }
-
-  .md\:hover\:font-semibold:hover {
-    font-weight: 600
-  }
-
-  .md\:hover\:font-bold:hover {
-    font-weight: 700
-  }
-
-  .md\:hover\:font-extrabold:hover {
-    font-weight: 800
-  }
-
-  .md\:hover\:font-black:hover {
-    font-weight: 900
-  }
-
-  .md\:focus\:font-hairline:focus {
-    font-weight: 100
-  }
-
-  .md\:focus\:font-thin:focus {
-    font-weight: 200
-  }
-
-  .md\:focus\:font-light:focus {
-    font-weight: 300
-  }
-
-  .md\:focus\:font-normal:focus {
-    font-weight: 400
-  }
-
-  .md\:focus\:font-medium:focus {
-    font-weight: 500
-  }
-
-  .md\:focus\:font-semibold:focus {
-    font-weight: 600
-  }
-
-  .md\:focus\:font-bold:focus {
-    font-weight: 700
-  }
-
-  .md\:focus\:font-extrabold:focus {
-    font-weight: 800
-  }
-
-  .md\:focus\:font-black:focus {
-    font-weight: 900
   }
 
   .md\:h-0 {
@@ -17088,7 +16764,7 @@
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1281px
   }
 
   .md\:min-h-0 {
@@ -22841,7 +22517,7 @@
   }
 
   .lg\:font-sang-light {
-    font-family: "Sang Bleu Sans Light"
+    font-family: "Sang-bleu-sans-light"
   }
 
   .lg\:font-sang-regular {
@@ -22849,119 +22525,11 @@
   }
 
   .lg\:font-akkurat-regular {
-    font-family: "Akkurat Std Regular"
+    font-family: "Akkurat-regular"
   }
 
   .lg\:font-akkurat-bold {
     font-family: "Akkurat Std Bold"
-  }
-
-  .lg\:font-hairline {
-    font-weight: 100
-  }
-
-  .lg\:font-thin {
-    font-weight: 200
-  }
-
-  .lg\:font-light {
-    font-weight: 300
-  }
-
-  .lg\:font-normal {
-    font-weight: 400
-  }
-
-  .lg\:font-medium {
-    font-weight: 500
-  }
-
-  .lg\:font-semibold {
-    font-weight: 600
-  }
-
-  .lg\:font-bold {
-    font-weight: 700
-  }
-
-  .lg\:font-extrabold {
-    font-weight: 800
-  }
-
-  .lg\:font-black {
-    font-weight: 900
-  }
-
-  .lg\:hover\:font-hairline:hover {
-    font-weight: 100
-  }
-
-  .lg\:hover\:font-thin:hover {
-    font-weight: 200
-  }
-
-  .lg\:hover\:font-light:hover {
-    font-weight: 300
-  }
-
-  .lg\:hover\:font-normal:hover {
-    font-weight: 400
-  }
-
-  .lg\:hover\:font-medium:hover {
-    font-weight: 500
-  }
-
-  .lg\:hover\:font-semibold:hover {
-    font-weight: 600
-  }
-
-  .lg\:hover\:font-bold:hover {
-    font-weight: 700
-  }
-
-  .lg\:hover\:font-extrabold:hover {
-    font-weight: 800
-  }
-
-  .lg\:hover\:font-black:hover {
-    font-weight: 900
-  }
-
-  .lg\:focus\:font-hairline:focus {
-    font-weight: 100
-  }
-
-  .lg\:focus\:font-thin:focus {
-    font-weight: 200
-  }
-
-  .lg\:focus\:font-light:focus {
-    font-weight: 300
-  }
-
-  .lg\:focus\:font-normal:focus {
-    font-weight: 400
-  }
-
-  .lg\:focus\:font-medium:focus {
-    font-weight: 500
-  }
-
-  .lg\:focus\:font-semibold:focus {
-    font-weight: 600
-  }
-
-  .lg\:focus\:font-bold:focus {
-    font-weight: 700
-  }
-
-  .lg\:focus\:font-extrabold:focus {
-    font-weight: 800
-  }
-
-  .lg\:focus\:font-black:focus {
-    font-weight: 900
   }
 
   .lg\:h-0 {
@@ -24309,7 +23877,7 @@
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1281px
   }
 
   .lg\:min-h-0 {
@@ -28910,7 +28478,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
   .xl\:sr-only {
     position: absolute;
     width: 1px;
@@ -30062,7 +29630,7 @@
   }
 
   .xl\:font-sang-light {
-    font-family: "Sang Bleu Sans Light"
+    font-family: "Sang-bleu-sans-light"
   }
 
   .xl\:font-sang-regular {
@@ -30070,119 +29638,11 @@
   }
 
   .xl\:font-akkurat-regular {
-    font-family: "Akkurat Std Regular"
+    font-family: "Akkurat-regular"
   }
 
   .xl\:font-akkurat-bold {
     font-family: "Akkurat Std Bold"
-  }
-
-  .xl\:font-hairline {
-    font-weight: 100
-  }
-
-  .xl\:font-thin {
-    font-weight: 200
-  }
-
-  .xl\:font-light {
-    font-weight: 300
-  }
-
-  .xl\:font-normal {
-    font-weight: 400
-  }
-
-  .xl\:font-medium {
-    font-weight: 500
-  }
-
-  .xl\:font-semibold {
-    font-weight: 600
-  }
-
-  .xl\:font-bold {
-    font-weight: 700
-  }
-
-  .xl\:font-extrabold {
-    font-weight: 800
-  }
-
-  .xl\:font-black {
-    font-weight: 900
-  }
-
-  .xl\:hover\:font-hairline:hover {
-    font-weight: 100
-  }
-
-  .xl\:hover\:font-thin:hover {
-    font-weight: 200
-  }
-
-  .xl\:hover\:font-light:hover {
-    font-weight: 300
-  }
-
-  .xl\:hover\:font-normal:hover {
-    font-weight: 400
-  }
-
-  .xl\:hover\:font-medium:hover {
-    font-weight: 500
-  }
-
-  .xl\:hover\:font-semibold:hover {
-    font-weight: 600
-  }
-
-  .xl\:hover\:font-bold:hover {
-    font-weight: 700
-  }
-
-  .xl\:hover\:font-extrabold:hover {
-    font-weight: 800
-  }
-
-  .xl\:hover\:font-black:hover {
-    font-weight: 900
-  }
-
-  .xl\:focus\:font-hairline:focus {
-    font-weight: 100
-  }
-
-  .xl\:focus\:font-thin:focus {
-    font-weight: 200
-  }
-
-  .xl\:focus\:font-light:focus {
-    font-weight: 300
-  }
-
-  .xl\:focus\:font-normal:focus {
-    font-weight: 400
-  }
-
-  .xl\:focus\:font-medium:focus {
-    font-weight: 500
-  }
-
-  .xl\:focus\:font-semibold:focus {
-    font-weight: 600
-  }
-
-  .xl\:focus\:font-bold:focus {
-    font-weight: 700
-  }
-
-  .xl\:focus\:font-extrabold:focus {
-    font-weight: 800
-  }
-
-  .xl\:focus\:font-black:focus {
-    font-weight: 900
   }
 
   .xl\:h-0 {
@@ -31530,7 +30990,7 @@
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1281px
   }
 
   .xl\:min-h-0 {

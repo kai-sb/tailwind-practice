@@ -1,7 +1,5 @@
 module.exports = {
     theme: {
-        important: ".SpaceBetween-CUK-165 #CUK-165",
-        prefix: 'sb-',
         extend: {},
         colors: {
             // done
@@ -24,10 +22,7 @@ module.exports = {
             sm: "480px",
             md: "768px",
             lg: "1025px",
-            xl: "1281px",
-            print: {
-                'raw': 'print'
-            },
+            xl: "1281px"
         },
         fontFamily: {
             // done
@@ -36,7 +31,7 @@ module.exports = {
             "akkurat-regular": '"Akkurat-regular"',
             "akkurat-bold": '"Akkurat Std Bold"'
         },
-        fontSize: {
+        fontSize: { // todo
             tiny: ".75rem", // 12px
             xs: "0.813rem", // 13px
             small: ".875rem", // 14px
@@ -48,7 +43,7 @@ module.exports = {
             "4xl": "1.875rem", // 30px
             "5xl": "2.500rem" // 40px
         },
-        lineHeight: {
+        lineHeight: { // todo
             none: 1,
             tight: 1.1667,
             snug: 1.2,
@@ -59,19 +54,35 @@ module.exports = {
         }
     },
     corePlugins: {
-        fontWeight: false,
-        preflight: false,
+        fontWeight: false
     },
     variants: {},
     plugins: [
-        function({
+        function ({
+            addBase,
+            config
+        }) {
+            addBase({
+                '@font-face': [{
+                        'font-family': '"ProbaPro-Regular"',
+                        src: 'url("Proba_Pro_Regular.woff") format("woff")'
+                    },
+                    {
+                        'font-family': '"ProbaPro-Bold"',
+                        src: 'url("Proba_Pro_Bold.woff") format("woff")'
+                    }
+                ]
+            });
+        },
+
+        function ({
             addBase,
             config
         }) {
             addBase({
                 "@font-face": [{
                         "font-family": '"Sang-bleu-sans-light"',
-                        src: 'url("fonts/SangBleuSans-Light.woff") format("woff")'
+                        src: 'url("/fonts/SangBleuSans-Light.woff") format("woff")'
                     },
                     {
                         "font-family": '"Sang Bleu Sans Regular"',
